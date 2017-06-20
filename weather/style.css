@@ -1,0 +1,114 @@
+﻿body {
+  margin: 0;
+  height: 100%;
+  background: url("OMWR1K0.jpg");
+  background-size: cover;
+}
+
+h4 {
+    font: normal 20px/1 "averia-serif-libre", Florence, cursive;
+    text-align:center;
+}
+
+#footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    color: #000000; 
+    width: 100%; 
+	background: #F0E68C;
+	text-align: right;
+   }
+.button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 101px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  font: normal normal bold 12px/normal "Battambang", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(48,109,232,1);
+  -webkit-transition: background 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -moz-transition: background 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  -o-transition: background 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition: background 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+.text {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 40px/1 "averia-serif-libre", Florence, cursive;
+  color: #F0E68C;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  
+}
+
+.block1 {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100%;
+  height: 25%;
+  border: none;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: #F0E68C;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #F0E68C;
+  -webkit-transform: rotateY(1.72deg)   ;
+  transform: rotateY(1.72deg)   ;
+  border: 1px solid #000000;
+}
+
+
+div.block2 {
+	position: absolute;
+    line-height: 1px;
+	width: 80%; 
+	left: 10%; 
+	background: #F0E68C;
+	-webkit-border-radius: 15px;
+    border-radius: 15px;
+	font: normal 16px/1 "Times New Roman", Times, serif;
+	color: #000000;
+    border: 1px solid #000000;
+  
+}
+
+div.weather-rez {
+	position: relative;
+    line-height: 1px;
+	width: 15%; 
+	left: 2.5%;
+	background: #F5F5DC;
+	-webkit-border-radius: 15px;
+    border-radius: 15px;
+	font: normal 16px/1 "Times New Roman", Times, serif;
+	text-align: center;
+	color: #000000;
+    border: 2px solid #00BFFF;
+	float: left;
+  
+}
+
+  div.g-maps {
+	position: relative;
+	width: 80%;  
+    float: right;
+	
+} 
+  
